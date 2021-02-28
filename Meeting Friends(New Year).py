@@ -1,0 +1,5 @@
+n1=list(map(int,input().split()))
+n1=sorted(n1)
+n2 = abs(n1[1]-n1[0]) + abs(n1[1] - n1[2])
+n2 = int(n2)
+print(n2)
